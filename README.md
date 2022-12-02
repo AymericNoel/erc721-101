@@ -25,7 +25,7 @@ Your objective is to gather as many TD-ERC721-101 points as possible. Please not
 - Configure a private key for deployment of contracts in your truffle config
 - Register for an infura key and set it up in your truffle config
 - Download and launch Ganache
-- Verify that the open port on ganache (generally 7545 corresponds to the port of the network `development` in your [truffle config](example-truffle-config.js#L69))
+- Verify that the open port on ganache (generally 7545) corresponds to the port of the network `development` in your [truffle config](example-truffle-config.js#L69)
 - Test that you are able to connect to the ganache network with `truffle console`
 - Test that you are able to connect to the sepolia or goerli network with `truffle console --network sepolia`
 - To deploy a contract, configure a migration in the [migration folder](migrations). Look at the way the TD is deploy and try to iterate
